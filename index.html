@@ -6,14 +6,30 @@
 </head>
 <body>
     <div id=main-container>
-        <div id=display-container>
-
-        </div>
+        <div id=display>0</div>
         <div id=keypad-container>
+            <button class=key data-action="clear">C</button>
+            <button class=key data-action="delete">🡐</button>
+            <button class=key data-operator="/">÷</button>
+            <button class=key data-operator="*">×</button>
+
             <button class=key data-number="7">7</button>
             <button class=key data-number="8">8</button>
             <button class=key data-number="9">9</button>
+            <button class=key data-operator="-">–</button>
+            
+            <button class=key data-number="4">4</button>
+            <button class=key data-number="5">5</button>
+            <button class=key data-number="6">6</button>
             <button class=key data-operator="+">+</button>
+            
+            <button class=key data-number="1">1</button>
+            <button class=key data-number="2">2</button>
+            <button class=key data-number="3">3</button>
+            <button class="key high" data-action="enter">=</button>
+            
+            <button class="key wide" data-number="0">0</button>
+            <button class=key data-action="period">.</button>
         </div>
     </div>
 </body>
